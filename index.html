@@ -17,9 +17,9 @@
       <nav aria-label="Primary navigation">
         <a class="active" href="/">Home</a>
         <a href="#reels">Reels</a>
-        <a href="/contact.html">Contact</a>
+        <a href="/contact">Contact</a>
       </nav>
-      <a class="header-cta" href="/contact.html">Book Steve <span>↗</span></a>
+      <a class="header-cta" href="/contact">Book Steve <span>↗</span></a>
     </header>
 
     <main>
@@ -32,7 +32,7 @@
           <p class="hero-intro">Experienced. Versatile. Ready for a room full of people who came to laugh.</p>
           <div class="hero-actions">
             <a class="button button-gold" href="#reels">Watch the reels <span>↓</span></a>
-            <a class="text-link" href="/contact.html">Available to book <span>↗</span></a>
+            <a class="text-link" href="#contact">Available to book <span>↓</span></a>
           </div>
         </div>
         <div class="hero-meta">
@@ -48,7 +48,7 @@
           <div>
             <h2>Comedy with<br /><span>something to say.</span></h2>
             <p class="about-copy">Steve Guentner is an experienced, versatile stand-up comedian based in Irvine. He is available to book for your next show, event, or room that could use a laugh.</p>
-            <a class="text-link dark" href="/contact.html">Start a conversation <span>↗</span></a>
+            <a class="text-link dark" href="#contact">Start a conversation <span>↓</span></a>
           </div>
         </div>
       </section>
@@ -69,10 +69,18 @@
         <p class="reel-note">Fresh clips, straight from <a href="https://www.instagram.com/stevegoints/" target="_blank" rel="noreferrer">@stevegoints</a>.</p>
       </section>
 
-      <section class="closing-cta">
-        <p class="eyebrow"><span></span> Make it a good night</p>
-        <h2>Looking for a<br /><em>comedian?</em></h2>
-        <a class="button button-gold" href="/contact.html">Let’s talk dates <span>↗</span></a>
+      <section class="closing-cta" id="contact">
+        <div class="closing-copy"><p class="eyebrow"><span></span> Make it a good night</p><h2>Looking for a<br /><em>comedian?</em></h2><p>Tell Steve a little about your show or event.</p></div>
+        <form class="booking-form" action="https://formsubmit.co/sgoints@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Steve Guentner booking inquiry" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <label>Your name<input required name="name" autocomplete="name" /></label>
+          <label>Your email<input required type="email" name="email" autocomplete="email" /></label>
+          <label>What are you planning?<textarea required name="message" rows="3" placeholder="Show, event, date, and anything helpful."></textarea></label>
+          <button class="button button-gold" type="submit">Send inquiry <span>↗</span></button>
+          <p class="form-note">Your inquiry goes directly to Steve.</p>
+        </form>
       </section>
     </main>
     <footer><a class="brand" href="/">SG<span>•</span></a><p>Steve Guentner · Stand-up comedy</p><a href="mailto:sgoints@gmail.com">sgoints@gmail.com</a><a href="https://www.instagram.com/stevegoints/" target="_blank" rel="noreferrer">Instagram ↗</a></footer>
